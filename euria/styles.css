@@ -1,0 +1,30 @@
+html,
+body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	text-align: center;
+	background:#BBBBBB;
+}
+.wrapper-euria  {
+	background:#EEEEEE url(fons-euria.png) repeat-x center bottom;
+	height: 69%;
+	width: 100%;
+	border-bottom:1px dashed #FFFFFF;
+}
+.wrapper-aterkia  {
+	background:#BBBBBB url(fons-aterkia.png) repeat-x center top;
+	height: 30%;
+	width: 100%;
+	border-top:1px dashed #FFFFFF;
+}
+.wrapper-euria img {
+	position:relative;
+	top:50%;
+	margin-top:-64px;
+}
+.wrapper-aterkia img {
+	position:relative;
+	top:50%;
+	margin-top:-44px;
+}
